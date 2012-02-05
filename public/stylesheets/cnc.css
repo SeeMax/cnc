@@ -111,6 +111,14 @@ a {
 	letter-spacing: 1px;
 }
 
+.p3 {
+	font: 12px Arial Narrow; 
+	color:#B0B0B0; 
+	display:inline-block; 
+	margin: 10px 0px 0px 0px; 
+	letter-spacing: 1px;
+}
+
 
 
 /*This is the code for name*/
@@ -177,13 +185,48 @@ a {
 	text-align:left;
 }
 
-#gif {
-	
+
+
+#gif_1 {
+	display:inline-block;
 	text-align:center;
 	margin:300px auto 208px auto;
-	color: white;
+	background-color:;
 	display:none;
 }
+
+#gif_2 {
+	display:inline-block;
+	text-align:center;
+	margin:300px auto 208px auto;
+	background-color:;
+	display:none;
+}
+
+#gif_3 {
+	display:inline-block;
+	text-align:center;
+	margin:300px auto 208px auto;
+	background-color:;
+	display:none;
+}
+
+#gif_4 {
+	display:inline-block;
+	text-align:center;
+	margin:300px auto 208px auto;
+	background-color:;
+	display:none;
+}
+
+#gif_5 {
+	display:inline-block;
+	text-align:center;
+	margin:300px auto 208px auto;
+	background-color:;
+	display:none;
+}
+
 
 /*This is the code for red border: 
 border-style:solid; 
