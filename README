@@ -1,7 +1,7 @@
 To-Do
 Me:
-1. Animated GIF is ugly and needs to be fixed up in photoshop.
-2. Bottom bar on gif page doesn't have correct position or padding
+1.Need to check why jquery script runs slow on the very first return of a string
+2. Make it so script displays only Finishing at the end instead of starting rotation again.
 
 Help From Trevor:
 1. Make Gallery Display all submitted names.

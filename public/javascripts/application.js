@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$("#wrapper").hide();
 		$("#navigation").hide();
 
-		texts="gif_1,gif_2,gif_3,gif_4,gif_5".split(",");
+		texts="gif_1,gif_2,gif_3,gif_4,gif_5,gif_5".split(",");
 		textIndex=0;
 		function rotate() {
 		    $("#"+texts[textIndex]).hide(1,function(){
@@ -44,7 +44,7 @@ $(document).ready(function(){
 		 
 		setTimeout(function() {		
 				form.submit();
-		  }, 6000);
+		  }, 5600);
 	
 	});
 
