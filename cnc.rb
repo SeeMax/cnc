@@ -6,6 +6,10 @@ get '/about' do
   erb :about
 end
 
+get '/our_work' do
+  erb :our_work
+end
+
 post '/' do  
   @name = params['name']
   @name = @name.titleize.strip.squeeze(" ")

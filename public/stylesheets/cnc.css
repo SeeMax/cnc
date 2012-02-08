@@ -120,6 +120,13 @@ a {
 }
 
 
+.p4 {
+	font: 80px Arial Narrow; 
+	color:#B0B0B0; 
+	margin: 170px auto 170px auto; 
+	letter-spacing: 1px;
+}
+
 
 /*This is the code for name*/
 #new_name {
