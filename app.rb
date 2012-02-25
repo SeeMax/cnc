@@ -26,6 +26,3 @@ post '/' do
   @name = @name + " Company"
   erb :name
 end
-
-
-

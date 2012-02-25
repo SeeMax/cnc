@@ -1,7 +1,2 @@
-require 'rubygems'
-require 'bundler'
-
-Bundler.require
-
-require './cnc'
+require './env'
 run Sinatra::Application
