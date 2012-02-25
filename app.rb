@@ -7,7 +7,7 @@ get '/about' do
 end
 
 get '/our_work' do
-  @names = Name.all
+  @names = Name.all.reverse
   erb :our_work
 end
 
@@ -21,11 +21,15 @@ post '/' do
   @name.gsub!("A "," ")
   @name.gsub!(" company "," ")
   @name.gsub!(" Company "," ")
+  @name.gsub!(" Company"," ")
+  @name.gsub!(" company"," ")
   @name.gsub!("We "," ")
+  @name.gsub!(" We "," ")
   @name.gsub!(" we "," ")
+  @name.gsub!("we "," ")
 
   @name = @name + " Company"
-
+  
   Name.create!(:name => @name)
   erb :name
 end

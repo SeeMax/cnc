@@ -234,6 +234,39 @@ a {
 	display:none;
 }
 
+#our_work_wrapper_result {
+	text-align:center;
+	margin: 65px auto 65px auto;
+	white-space:nowrap;
+}
+
+
+#final_name{
+	vertical-align: top;
+	display:inline-block;
+	background-image: url('/images/result_banner_back.png');
+	background-repeat:repeat-x;
+	font: 27px Arial Narrow; 
+	color: #F8F8F8;
+	padding:13px 5px 40px 5px;
+	white-space:nowrap;
+}
+
+#about_us_wrapper {
+	text-align:center;
+	margin: 25px auto 0px auto;
+	white-space:nowrap;
+}
+
+.our_work_navigation{
+	margin: 60px 0px 0px 0px;
+	padding: 20px 0px 0px 0px; 
+	background-image: url('/images/bottom_bar.png'); 
+	background-repeat:no-repeat; 
+	background-position:center; 
+	height:30px; 
+	text-align:center;
+}
 
 /*This is the code for red border: 
 border-style:solid; 
