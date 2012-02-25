@@ -1,6 +1,6 @@
 class CreateNames < ActiveRecord::Migration
   def self.up
-    create_table :name do |t|
+    create_table :names do |t|
       t.string :name
     end
   end

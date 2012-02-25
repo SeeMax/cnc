@@ -7,10 +7,11 @@ get '/about' do
 end
 
 get '/our_work' do
+  @names = Name.all
   erb :our_work
 end
 
-post '/' do  
+post '/' do
   @name = params['name']
   @name = @name.titleize.strip.squeeze(" ")
 
@@ -24,5 +25,7 @@ post '/' do
   @name.gsub!(" we "," ")
 
   @name = @name + " Company"
+
+  Name.create!(:name => @name)
   erb :name
 end
